@@ -361,6 +361,16 @@ Las salidas incluidas, en caso de agregarse, serán ejemplos anonimizados o capt
 
 ---
 
+## ⚠️ Limitaciones
+
+Este repositorio documenta la primera etapa del proyecto, centrada en la preparación, normalización y consolidación de los datos históricos.
+
+Por motivos de confidencialidad, los archivos originales y la base consolidada completa no se incluyen en el repositorio.
+
+Además, para ejecutar los scripts en otro entorno es necesario adaptar las rutas locales y contar con una estructura de carpetas equivalente a la utilizada en el proyecto.
+
+La etapa de visualización y consulta todavía no forma parte de este repositorio. Será desarrollada a partir de la base histórica generada por el pipeline.
+
 ## ▶️ Cómo ejecutar el proyecto
 
 Para ejecutar los scripts en otro equipo, se debe adaptar la ruta del proyecto dentro de los archivos `.py`.
