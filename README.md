@@ -81,7 +81,7 @@ Esa etapa se desarrollará a partir de la base histórica generada por este pipe
 ## 🗂️ Estructura del repositorio
 
 ```text
-python-laboratory-data-pipeline/
+pipeline-laboratorio-python/
 │
 ├── scripts/
 │   ├── pipeline_2018.py
