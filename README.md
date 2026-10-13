@@ -1,10 +1,10 @@
-# 🧪 Pipeline en Python para normalización de informes históricos de laboratorio
+# 🐍 Pipeline en Python para normalización de informes históricos de laboratorio
 
 > ETL con Python · Limpieza de datos históricos · Normalización de archivos Excel · Validación de calidad · Consolidación 2018–2026
 
 ---
 
-## 🛠️ Stack tecnológico
+## ⚙️ Stack tecnológico
 
 | Herramienta / Librería | Uso |
 |---|---|
@@ -18,20 +18,21 @@
 
 ---
 
-## 🎯 Objetivo del proyecto
+## ❔ Objetivo del proyecto
 
-El objetivo general del proyecto es construir una base histórica confiable de resultados de laboratorio que permita consultar y analizar información acumulada durante varios años.
+El objetivo general del proyecto es construir una base histórica confiable de resultados de laboratorio que permita consultar rápidamente información analítica acumulada durante varios años.
 
-Originalmente, los informes se encontraban distribuidos en múltiples archivos Excel con estructuras variables, lo que dificultaba responder preguntas simples como:
+Originalmente, los resultados se encontraban distribuidos en múltiples informes Excel con estructuras variables. Esto dificultaba responder de forma rápida preguntas frecuentes del trabajo técnico, como:
 
-- ¿Qué muestras se analizaron en determinado año?
-- ¿Qué resultados tuvo un productor específico?
+- ¿Cuáles fueron los resultados de análisis de una muestra determinada?
+- ¿Qué características analíticas presentó un cultivo, alimento o material evaluado?
+- ¿Qué resultados históricos existen para un productor o solicitante específico?
 - ¿Qué cultivos o alimentos fueron analizados con mayor frecuencia?
-- ¿Cómo consultar rápidamente resultados históricos sin revisar archivo por archivo?
+- ¿Cómo consultar información histórica sin revisar archivo por archivo?
 
 Este repositorio documenta la **primera etapa del proyecto**: el desarrollo de un pipeline en Python para normalizar, validar y consolidar los informes históricos del período 2018–2026.
 
-El resultado de esta etapa es una base histórica limpia y estandarizada, que funciona como insumo para una etapa posterior de análisis, consulta y visualización.
+El resultado de esta etapa es una base histórica limpia y estandarizada, que funciona como insumo para una etapa posterior de consulta, análisis y visualización.
 
 ---
 
@@ -104,6 +105,8 @@ python-laboratory-data-pipeline/
 | `docs/` | Documentación técnica complementaria |
 | `images/` | Capturas utilizadas en la documentación |
 | `outputs_sample/` | Ejemplos anonimizados o capturas de salidas generadas |
+
+La documentación técnica detallada del proceso se encuentra en [`docs/bitacora_tecnica.md`](docs/bitacora_tecnica.md).
 
 ---
 
@@ -390,7 +393,7 @@ scripts/pipeline_maestro_consolidado_historico_2018_2026.py
 
 ---
 
-## 📌 Estado del proyecto
+## ⏳ Estado del proyecto
 
 Estado actual: **Etapa 1 finalizada**.
 
@@ -406,12 +409,12 @@ Próxima etapa:
 
 - diseño de una herramienta de consulta y visualización;
 - creación de métricas e indicadores;
-- desarrollo de filtros por año, productor, cultivo y muestra;
+- desarrollo de filtros por muestra, cultivo, productor y año;
 - análisis exploratorio de la información histórica.
 
 ---
 
-## 💡 Aprendizajes principales
+## 💎 Aprendizajes principales
 
 Este proyecto permitió trabajar con un caso real de datos históricos no estandarizados.
 
@@ -425,6 +428,3 @@ Los principales aprendizajes fueron:
 - tratar datos faltantes sin reemplazarlos incorrectamente por cero;
 - resolver diferencias históricas de formato y nomenclatura;
 - generar una base analítica confiable a partir de archivos operativos desordenados.
-
----
-
