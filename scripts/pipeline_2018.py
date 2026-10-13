@@ -33,14 +33,28 @@ import os
 # 2. CONFIGURACIÓN GENERAL
 # ============================================================
  
+# Ruta principal del proyecto.
+# Para ejecutar este script en otro equipo, reemplazar esta ruta
+# por la ubicación local donde se encuentre la carpeta del proyecto.
+RAIZ_PROYECTO = r"RUTA_A_TU_PROYECTO\Proyecto Laboratorio"
+
 # Carpeta de entrada: archivos originales de 2018.
 # Los archivos originales no se modifican.
-CARPETA_2018 = r"C:\Users\54298\Documents\PROGRAMA IPS DATAX\Proyecto Laboratorio\DATOS\ORIGINALES\2018"
- 
+CARPETA_2018 = os.path.join(
+    RAIZ_PROYECTO,
+    "DATOS",
+    "ORIGINALES",
+    "2018"
+)
+
 # Carpeta de salida para guardar puntos de control
 # durante el desarrollo del pipeline.
-CARPETA_RESPALDOS = r"C:\Users\54298\Documents\PROGRAMA IPS DATAX\Proyecto Laboratorio\DATOS\RESPALDOS"
- 
+CARPETA_RESPALDOS = os.path.join(
+    RAIZ_PROYECTO,
+    "DATOS",
+    "RESPALDOS"
+)
+
 # Nombres de los archivos de salida
 ARCHIVO_CONSOLIDADO = "consolidado_2018.xlsx"
 ARCHIVO_LOG = "log_consolidado_2018.xlsx"
