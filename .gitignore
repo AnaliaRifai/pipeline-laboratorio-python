@@ -19,3 +19,20 @@ venv/
 .env
 .DS_Store
 Thumbs.db
+
+# EXCEPCIONES EXCLUSIVAS PARA EJEMPLOS SINTÉTICOS REVISADOS
+# No colocar jamás datos reales bajo estos nombres.
+!outputs_sample/informe_ficticio_A.xlsx
+!outputs_sample/informe_ficticio_B.xlsx
+!outputs_sample/consolidado_2018.xlsx
+!outputs_sample/log_consolidado_2018.xlsx
+!outputs_sample/consolidado_historico_2018_2026.xlsx
+!outputs_sample/log_consolidado_historico_2018_2026.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2019.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2020.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2021.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2022.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2023.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2024.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2025.xlsx
+!outputs_sample/consolidados_anuales_sinteticos/consolidado_2026.xlsx
