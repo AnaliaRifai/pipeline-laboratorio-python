@@ -1,0 +1,21 @@
+# Material del laboratorio y configuraciones reales (no versionar)
+config_privada.json
+**/DATOS/
+**/ORIGINALES/
+**/RESPALDOS/
+**/PROCESADOS/
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+
+# Entorno y temporales
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.spyproject/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
