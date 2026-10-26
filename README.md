@@ -38,6 +38,23 @@ La consolidación de los datos históricos **reales** del laboratorio produjo un
 
 ---
 
+## 🔍 Hallazgos agregados del histórico real
+
+Estas conclusiones surgen **solo de estadísticas agregadas**, sin utilizar ni publicar identificadores de las muestras o los solicitantes.
+
+**1. ¿Qué años concentran más registros?**  
+Los tres años con mayor cantidad de muestras en la base consolidada fueron **2019 (278)**, **2021 (233)** y **2022 (197)**. Juntos representan **708 registros, el 49,8 % del total**.
+
+**2. ¿La cantidad de registros fue uniforme entre años?**  
+No. La cobertura varía desde **53 registros en 2020** hasta **278 en 2019**. Esta diferencia describe la distribución de los datos históricos disponibles; **no permite concluir por sí sola** que aumentó o disminuyó la actividad del laboratorio.
+
+**3. ¿Se conservaron los registros al integrar los años?**  
+Sí. Los consolidados anuales suman **1.422 filas**, exactamente las mismas que la base histórica final. No se detectaron registros repetidos con la clave compuesta `(anio, muestra)`. Esto verifica la consistencia de esos recuentos, **no** la ausencia de todos los posibles problemas de calidad.
+
+**Nota de revisión:** la bitácora histórica consignaba inicialmente 236 registros para 2021 y la versión actualmente verificada de la base contiene 233. La diferencia de tres registros se mantiene documentada y pendiente de explicar. Las métricas globales usan los valores de los archivos consolidados actuales.
+
+---
+
 ## 📊 Evidencia de funcionamiento (datos 100 % ficticios)
 
 Para demostrar que los scripts publicados funcionan sin exponer registros reales, se creó un escenario completamente sintético y se ejecutaron ambos pipelines. **Las cifras siguientes corresponden solo a la demostración y no representan los resultados del laboratorio real.**
