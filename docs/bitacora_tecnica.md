@@ -437,6 +437,8 @@ Resultado final documentado:
 
 - 38 archivos procesados;
 - 236 muestras consolidadas;
+
+> **Verificación posterior del consolidado (2021):** los archivos consolidados anual y final actualmente contienen **233 registros** de 2021. La cifra **236** corresponde al resultado consignado en esta bitácora; existe una diferencia de **3 registros** cuyo origen debe verificarse antes de explicar el cambio. La métrica global del README usa el conteo actual verificado.
 - 0 errores de procesamiento;
 - 0 fechas de egreso anteriores a la fecha de ingreso;
 - 0 valores fuera de los rangos analíticos definidos;
