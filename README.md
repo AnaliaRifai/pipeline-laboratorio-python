@@ -4,6 +4,40 @@
 
 ---
 
+## 📈 Resultados reales del proyecto (2018–2026)
+
+La consolidación de los datos históricos **reales** del laboratorio produjo una base unificada con los siguientes resultados. Estas cifras provienen de una verificación agregada de los consolidados anuales y de la base final; **no se publican las fuentes reales**.
+
+| Indicador verificado | Resultado |
+|---|---:|
+| Período integrado | 2018–2026 (9 años) |
+| Archivos fuente con muestras (suma de los conteos anuales) | **311** |
+| Registros de la base histórica final | **1.422** |
+| Columnas en la base final | **22** |
+| Coincidencia entre filas anuales y registros finales | **Sí** |
+| Filas con clave `(anio, muestra)` repetida | **0** |
+
+**Desglose de registros reales por año**
+
+| Año | Archivos fuente con muestras | Registros finales |
+|---|---:|---:|
+| 2018 | 43 | 114 |
+| 2019 | 52 | 278 |
+| 2020 | 23 | 53 |
+| 2021 | 38 | 233 |
+| 2022 | 43 | 197 |
+| 2023 | 26 | 130 |
+| 2024 | 32 | 147 |
+| 2025 | 30 | 154 |
+| 2026 | 24 | 116 |
+| **Total** | **311** | **1.422** |
+
+**Criterio del conteo:** «archivos con muestras» contabiliza las fuentes distintas identificadas en cada consolidado anual. No equivale necesariamente al número total de informes recibidos o intentados. La verificación de duplicados usa la combinación **año + número de muestra**, no el número de muestra por sí solo. No se atribuye un ahorro de tiempo sin medición.
+
+> **Privacidad:** se muestran únicamente cantidades agregadas. Los registros identificatorios, los archivos originales y el consolidado real permanecen fuera del repositorio.
+
+---
+
 ## 📊 Evidencia de funcionamiento (datos 100 % ficticios)
 
 Para demostrar que los scripts publicados funcionan sin exponer registros reales, se creó un escenario completamente sintético y se ejecutaron ambos pipelines. **Las cifras siguientes corresponden solo a la demostración y no representan los resultados del laboratorio real.**
