@@ -4,6 +4,31 @@
 
 ---
 
+## 📊 Evidencia de funcionamiento (datos 100 % ficticios)
+
+Para demostrar que los scripts publicados funcionan sin exponer registros reales, se creó un escenario completamente sintético y se ejecutaron ambos pipelines. **Las cifras siguientes corresponden solo a la demostración y no representan los resultados del laboratorio real.**
+
+| Indicador de la demostración | Resultado |
+|---|---:|
+| Informes ficticios de entrada (2018) | 2 |
+| Muestras procesadas por el pipeline de 2018 | 4 |
+| Años integrados por el consolidador histórico | 9 (2018–2026) |
+| Registros finales de prueba | 20 |
+| Errores de lectura del histórico | 0 |
+| Muestras duplicadas en la demostración | 0 |
+
+**Validaciones demostradas:** identificación de encabezados desplazados y de dos filas, normalización de variables, promedio de determinaciones repetidas de DIVMS, unión de consolidados anuales y exportación de logs.
+
+![Salida del pipeline de 2018 con datos ficticios](images/01_salida_2018_ficticia.png)
+
+![Resumen anual del consolidado histórico sintético](images/02_resumen_anual_ficticio.png)
+
+[Ver control de valores faltantes](images/03_control_nulos_ficticio.png) · [Explorar los ejemplos Excel y las instrucciones de reproducción](outputs_sample/README.md)
+
+> **Alcance de la prueba:** los informes de 2018 se procesaron con el script anual publicado. Los consolidados ficticios de 2019–2026 se prepararon directamente para probar el script maestro: **no** se generaron ejecutando pipelines anuales que no están incluidos en este repositorio.
+
+---
+
 ## ⚙️ Stack tecnológico
 
 | Herramienta / Librería | Uso |
@@ -87,6 +112,9 @@ pipeline-laboratorio-python/
 │   └── pipeline_maestro_consolidado_historico_2018_2026.py
 ├── docs/
 │   └── bitacora_tecnica.md
+├── images/                             # 3 capturas ficticias
+├── outputs_sample/                     # Excel y logs ficticios + guía
+│   └── consolidados_anuales_sinteticos/
 ├── config_privada.ejemplo.json
 ├── requirements.txt
 ├── .gitignore
@@ -99,7 +127,7 @@ pipeline-laboratorio-python/
 - **`requirements.txt`**: dependencias Python.
 - **`.gitignore`**: impide versionar datos y configuraciones privadas en un flujo Git habitual.
 
-Las capturas y los ejemplos sintéticos de salida se incorporarán cuando estén revisados. No forman parte de esta versión.
+Las carpetas `images/` y `outputs_sample/` contienen únicamente una demostración ficticia. Los Excel de laboratorio reales no están disponibles en este repositorio.
 
 ---
 
