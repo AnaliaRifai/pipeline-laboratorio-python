@@ -51,7 +51,7 @@ No. La cobertura varía desde **53 registros en 2020** hasta **278 en 2019**. Es
 **3. ¿Se conservaron los registros al integrar los años?**  
 Sí. Los consolidados anuales suman **1.422 filas**, exactamente las mismas que la base histórica final. No se detectaron registros repetidos con la clave compuesta `(anio, muestra)`. Esto verifica la consistencia de esos recuentos, **no** la ausencia de todos los posibles problemas de calidad.
 
-**Nota de revisión:** la bitácora histórica consignaba inicialmente 236 registros para 2021 y la versión actualmente verificada de la base contiene 233. La diferencia de tres registros se mantiene documentada y pendiente de explicar. Las métricas globales usan los valores de los archivos consolidados actuales.
+**Nota de trazabilidad (2021):** una anotación anterior de la bitácora consignaba 236 registros, mientras que el único consolidado anual disponible y la base histórica actual contienen 233. No se conserva la versión previa para reconstruir el origen de la diferencia de 3 registros. Por ello, **233 es el dato vigente verificado** y no se atribuye una causa no demostrada.
 
 ---
 
