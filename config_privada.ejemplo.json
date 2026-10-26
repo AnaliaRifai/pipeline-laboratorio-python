@@ -1,0 +1,16 @@
+{
+  "_nota": "Ejemplo ficticio. Nunca publicar la configuración con datos reales.",
+  "rutas_privadas": {
+    "ruta_01": "RUTA_LOCAL_A_ORIGINALES_2018",
+    "ruta_02": "RUTA_LOCAL_A_RESPALDOS"
+  },
+  "muestras_excluidas": {},
+  "correcciones_meta": {
+    "informe_simulado_001.xls": {
+      "solicitante": "Solicitante_A"
+    }
+  },
+  "archivos_excluidos": {
+    "informe_simulado_duplicado.xls": "Duplicado de ejemplo"
+  }
+}
