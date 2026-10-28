@@ -4,6 +4,18 @@
 
 ---
 
+### 🚀 Resumen del proyecto
+
+**Problema:** Los resultados históricos de laboratorio estaban distribuidos en archivos Excel con diferentes estructuras, lo que dificultaba su consulta y análisis.
+
+**Solución:** Desarrollé un proceso ETL con Python y Pandas para limpiar, estandarizar, validar y consolidar la información histórica.
+
+**Resultado:** Integré datos de **311 archivos con muestras** correspondientes a **2018–2026** en una base de **1.422 registros y 22 columnas**, preparada para futuras consultas y visualizaciones.
+
+*Por confidencialidad, el repositorio incluye código anonimizado y ejemplos con datos ficticios.*
+
+---
+
 ## 📈 Resultados reales del proyecto (2018–2026)
 
 La consolidación de los datos históricos **reales** del laboratorio produjo una base unificada con los siguientes resultados. Estas cifras provienen de una verificación agregada de los consolidados anuales y de la base final; **no se publican las fuentes reales**.
